@@ -1,0 +1,237 @@
+.container_top {
+    display: flex;
+    background-image: url(../img/background_top2.jpg);
+    background-size: 100%;
+    /* border: 1px solid red; */
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_top_right {
+    margin: 10%;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_top_right p {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(167, 113, 14);
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.container_menu {
+    display: flex;
+    background-color: rgb(219, 215, 215);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container_menu a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.container_top img {
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+
+h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(80, 77, 77);
+    font-weight: normal;
+}
+
+.title h2 {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(167, 113, 14);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.title p {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(167, 113, 14);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 0;
+}
+
+hr {
+    /* line-height: 0 solid red; */
+    width: 60%;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.text_aboutme p {
+    text-align: justify;
+    color: rgb(117, 116, 116);
+    font-size: medium;
+    /* max-width: 30%; */
+}
+
+.img_center img {
+    border: 10px;
+    border-color: rgb(167, 113, 14);
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.text_aboutme {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.container_exp {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    gap: 10px;
+    /* Space between div */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.container_exp h3 {
+    font-style: normal;
+    color: rgb(167, 113, 14);
+}
+
+.container_exp>div {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container_exp>div>div:nth-child(2) {
+    /* border: 1px solid red; */
+    width: 70%;
+}
+
+.container_exp_title {
+    font-family: Open Sans, sans-serif;
+    color: rgb(117, 116, 116);
+    font-size: 18px;
+}
+
+.container_exp p {
+    font-family: Open Sans, sans-serif;
+    color: rgb(117, 116, 116);
+    font-size: 15px;
+    text-align: justify;
+}
+
+.container_exp b {
+    font-family: Open Sans, sans-serif;
+    color: rgb(117, 116, 116);
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container_form {
+    display: flex;
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.container_form>div {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.container_form>div>div:nth-child(1) {
+    width: 25%;
+    /* border: 1px solid red; */
+    margin-left: auto;
+}
+
+.container_form input[type="text"] {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 25px;
+    width: 300px;
+}
+
+.container_form input[type="Submit"] {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(117, 116, 116);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 25px;
+}
+
+.container_form input[type="email"] {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 25px;
+    width: 300px;
+}
+
+.container_form label {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ccc;
+
+}
+
+.container_form textarea {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 60px;
+    width: 300px;
+}
